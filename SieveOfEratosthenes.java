@@ -11,7 +11,7 @@ public class SieveOfEratosthenes{
 
    public static boolean[] sieveOfEratosthenes(int max){
       boolean[] flags = new boolean[max+1];
-      int count = 0;
+      // int count = 0;
    
       Arrays.fill(flags, true); //sets all flag to true other than 0 and 1
       int prime = 2;
